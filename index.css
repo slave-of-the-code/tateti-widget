@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 64px;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tateti__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tateti__table td {
+  height: 3rem;
+  width: 3rem;
+  padding: 0.5rem;
+  background: rgba(128, 128, 128, 0.5);
+  text-align: center;
+  cursor: pointer;
+}
+
+.message__container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.75);
+  font-size: 0.5rem;
+}
+
+.message__container > p {
+  padding: 0.5rem;
+  letter-spacing: 10px;
+  background: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.button {
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  background: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 1);
+  border-style: none;
+  border: 2px solid rgba(255, 255, 255, 1);
+  cursor: pointer;
+  outline: none;
+}
+.button:hover {
+  color: rgba(0, 0, 0, 0.75);
+  background: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+}
