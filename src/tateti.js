@@ -23,7 +23,7 @@
       link.id = cssId;
       link.rel = "stylesheet";
       link.type = "text/css";
-      link.href = "../src//index.css";
+      link.href = "tateti.css";
       // link.media = "all";
       head.appendChild(link);
     }

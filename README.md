@@ -1,5 +1,7 @@
 # tateti-widget
 
+## Publishedn
 
-## Published 
-. [netlify](https://tateti-widget.netlify.app/)
+`Netlify`
+
+> https://tateti-widget.netlify.app/
