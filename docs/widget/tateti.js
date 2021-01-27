@@ -23,7 +23,7 @@
       link.id = cssId;
       link.rel = "stylesheet";
       link.type = "text/css";
-      link.href = "/widget/tateti.css";
+      link.href = "https://tateti-widget.netlify.app/widget/tateti.css";
       // link.media = "all";
       head.appendChild(link);
     }
